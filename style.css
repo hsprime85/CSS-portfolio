@@ -1,0 +1,237 @@
+.container {
+    width: 980px;
+    margin: 0 auto; 
+    background: radial-gradient(#c2a6ad,#1e0e12);
+}
+    .header {
+        height: 60px;
+        background-color: rgb(247,247,247);
+        text-align: top;
+        padding: 0;
+    }
+        .header #name {
+            font-size: 30px;
+            display : inline-block;
+            width : 45%;
+            margin-left: 20px;
+            margin-top: 10px;
+            font-family: 'Cabin', sans-serif;
+        }
+
+        .header #master {
+            display: inline-block;
+            width: 50%;
+            text-align: right;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+
+
+    .intro{
+        min-height: 250px;
+        padding: 20px;
+    }
+        
+        .intro .myPicture {
+            width: 350px;
+            height: 250px;
+            outline: 4px solid #C0C0C0;
+        
+        }
+
+        .intro div {
+            width: 560px;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 20px;
+            background: rgb(255,255,255);
+            background: linear-gradient(63deg, rgba(255,255,255,1) 0%, rgba(180,164,171,1) 100%);
+            font-family: Arial, Helvetica, sans-serif;
+            padding-bottom: 18px;
+        }
+
+        .intro h3{
+            display: inline-block;
+            background: rgb(231,231,231);
+            background: linear-gradient(0deg, rgba(231,231,231,1) 0%, rgba(156,156,156,1) 47%, rgba(231,231,231,1) 100%);
+            display: inline-block;
+            width:550px;
+            padding-top: 10px;
+            padding-left: 10px;
+            margin: 0;
+            height: 35px;
+            color: white;
+        }
+
+        .intro p {
+            margin-left: 10px;
+        }
+
+        .intro a {
+            margin-left: 10px;
+            margin-bottom: 20px;
+            color: black;
+
+        }
+
+           .main .contents{
+            display: inline-block;
+            width: 295px;
+            background-color: white;
+            height: 620px;
+            vertical-align: top;
+            margin-left: 20px;
+            background: rgb(255,255,255);
+            background: linear-gradient(63deg, rgba(255,255,255,1) 0%, rgba(180,164,171,1) 100%);
+        }
+         #firstItem h3{
+            display: inline-block;
+            background: rgb(231,231,231);
+            background: linear-gradient(0deg, rgba(231,231,231,1) 0%, rgba(156,156,156,1) 47%, rgba(231,231,231,1) 100%);
+            width: 285px;
+            padding-top: 10px;
+            padding-left: 10px;
+            margin: 0;
+            height: 35px;
+            color: white;
+        }
+
+        #firstItem #laMode {
+            display: inline-block;
+            width: 295px;
+            height: 200px;
+        }
+
+        #firstItem p{ 
+            margin-left: 10px;
+            margin-top: 5px;
+            height: 160px;
+        }
+
+            .techIcons img {
+                width: 40px;
+                height: 40px;
+                padding-top: 10px;
+                margin-left: 13px;
+            }
+
+        #firstItem button {
+            color: white;
+            background-color: #407D61;
+            border-radius: 8px;
+            margin-top: 10px;
+            margin-left: 120px;
+            margin-bottom: 10px;
+        }
+
+        #secondItem h3{
+            display: inline-block;
+            background: rgb(231,231,231);
+            background: linear-gradient(0deg, rgba(231,231,231,1) 0%, rgba(156,156,156,1) 47%, rgba(231,231,231,1) 100%);
+            width: 285px;
+            padding-top: 10px;
+            padding-left: 10px;
+            margin: 0;
+            height: 35px;
+            color: white;
+        }
+
+
+
+
+        #secondItem #family {
+            display: inline-block;
+            width: 295px;
+            height: 200px;
+        }
+
+        #secondItem p{ 
+            margin-left: 10px;
+            margin-top: 5px;
+            height: 160px;
+        }
+
+        #secondItem button {
+            color: white;
+            background-color: #407D61;
+            border-radius: 8px;
+            margin-top: 10px;
+            margin-left: 95px;
+            margin-bottom: 10px;
+        }
+
+
+        #lastItem h3{
+            display: inline-block;
+            background: rgb(231,231,231);
+            background: linear-gradient(0deg, rgba(231,231,231,1) 0%, rgba(156,156,156,1) 47%, rgba(231,231,231,1) 100%);
+            width: 285px;
+            padding-top: 10px;
+            padding-left: 10px;
+            margin: 0;
+            height: 35px;
+            color: white;
+        }
+
+        #lastItem #eleven {
+            display: inline-block;
+            width: 295px;
+            height: 200px;
+        }
+
+        #lastItem p{ 
+            margin-left: 10px;
+            margin-top: 5px;
+            height: 160px;
+        }
+           
+        #lastItem button {
+            color: white;
+            background-color: #407D61;
+            border-radius: 8px;
+            margin-top: 10px;
+            margin-left: 110px;
+            margin-bottom: 10px;
+        }
+
+#footer {
+    height: 75px;
+    background-color: rgb(247,247,247);
+    padding: 0;  
+    font-family: 'Cabin', sans-serif;
+    margin :0;
+    padding-left: 260px;
+ }
+    #footer p {
+        padding-top: 10px;
+        padding-left: 120px;
+
+
+    }
+
+    #footer .footerImg{
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    #footer ul {
+        margin: 0;
+    }
+    #footer ul li {
+       list-style-type: none;
+       display: inline-block;
+       text-decoration: underline;
+   
+       
+    }
+    #footer #lastImg img {
+        width: 25px;
+        height: 25px;
+        margin-right: 5px;
+        display: inline-block;
+        vertical-align: bottom;
+
+        
+    }
